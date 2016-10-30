@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/gmolina/Documents/Desarrollo/AndroidStudioProjects/SistemaIMVE/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/gmolina/Documents/Desarrollo/AndroidStudioProjects/SistemaIMVE/app/build/intermediates/pre-dexed/release/com.android.support-animated-vector-drawable-23.4.0_72ce0522fbf2cfa1b81246580ea6a126ae78600d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gmolina/Documents/Desarrollo/AndroidStudioProjects/SistemaIMVE/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/gmolina/Documents/Desarrollo/AndroidStudioProjects/SistemaIMVE/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-23.4.0_7a9ce2151e31b1a37421996daf74e1c9546beb7b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gmolina/Documents/Desarrollo/AndroidStudioProjects/SistemaIMVE/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/gmolina/Documents/Desarrollo/AndroidStudioProjects/SistemaIMVE/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_72ce0522fbf2cfa1b81246580ea6a126ae78600d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gmolina/Documents/Desarrollo/AndroidStudioProjects/SistemaIMVE/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/gmolina/Documents/Desarrollo/AndroidStudioProjects/SistemaIMVE/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_514318415d4e00a8d0a3100437eabaa0763e645b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gmolina/Documents/Desarrollo/AndroidStudioProjects/SistemaIMVE/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b9ab55e1eeea907fadd6caa5e07c0d263540e77a">
+        <dex dex="/Users/gmolina/Documents/Desarrollo/AndroidStudioProjects/SistemaIMVE/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_67f611e13ee86d782519e5b9a1448c4e51738ecf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gmolina/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/gmolina/Documents/Desarrollo/AndroidStudioProjects/SistemaIMVE/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_f3ee000f55f421ce0f2ac4f2a10f92911b0e359f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gmolina/Documents/Desarrollo/AndroidStudioProjects/SistemaIMVE/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/gmolina/Documents/Desarrollo/AndroidStudioProjects/SistemaIMVE/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_7a9ce2151e31b1a37421996daf74e1c9546beb7b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gmolina/Documents/Desarrollo/AndroidStudioProjects/SistemaIMVE/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b0e3282d73de60cb70bee137fd4b121e4feffaf2">
+        <dex dex="/Users/gmolina/Documents/Desarrollo/AndroidStudioProjects/SistemaIMVE/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_c6fcccff3f436b9a1e4548c3f61b0345448db710/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gmolina/Documents/Desarrollo/AndroidStudioProjects/SistemaIMVE/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/gmolina/Documents/Desarrollo/AndroidStudioProjects/SistemaIMVE/app/build/intermediates/pre-dexed/release/internal_impl-23.4.0_b309489776551e08fac851366a9f7c7f52c44e77.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gmolina/Documents/Desarrollo/AndroidStudioProjects/SistemaIMVE/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/gmolina/Documents/Desarrollo/AndroidStudioProjects/SistemaIMVE/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_b309489776551e08fac851366a9f7c7f52c44e77/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gmolina/Documents/Desarrollo/AndroidStudioProjects/SistemaIMVE/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/gmolina/Documents/Desarrollo/AndroidStudioProjects/SistemaIMVE/app/build/intermediates/pre-dexed/release/com.android.support-support-vector-drawable-23.4.0_514318415d4e00a8d0a3100437eabaa0763e645b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gmolina/Documents/Desarrollo/AndroidStudioProjects/SistemaIMVE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/gmolina/Documents/Desarrollo/AndroidStudioProjects/SistemaIMVE/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_c83b5e4f3d0a58c38e4b347992b0414ab2472c81/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gmolina/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/gmolina/Documents/Desarrollo/AndroidStudioProjects/SistemaIMVE/app/build/intermediates/pre-dexed/release/support-annotations-23.4.0_f3ee000f55f421ce0f2ac4f2a10f92911b0e359f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gmolina/Documents/Desarrollo/AndroidStudioProjects/SistemaIMVE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/gmolina/Documents/Desarrollo/AndroidStudioProjects/SistemaIMVE/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-23.4.0_c83b5e4f3d0a58c38e4b347992b0414ab2472c81.jar" />
+    </item>
+
+</items>
