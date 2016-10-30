@@ -1,5 +1,0 @@
-<resources>
-    <string name="app_name">Sistema IMVE</string>
-    <string name="label_loading"></string>
-    <string name="label_no_connection">No hay conexión a internet</string>
-</resources>
