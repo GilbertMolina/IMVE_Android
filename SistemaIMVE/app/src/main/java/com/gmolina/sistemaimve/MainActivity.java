@@ -4,8 +4,10 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
@@ -13,6 +15,7 @@ import android.webkit.WebViewClient;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.Toast;
+import android.content.Intent;
 
 public class MainActivity extends AppCompatActivity {
     private WebView webView;
@@ -39,6 +42,30 @@ public class MainActivity extends AppCompatActivity {
         webView.setWebViewClient(new WebViewClient() {
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
+                if (url.split(":")[0].equals("tel")){
+                    Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse(url));
+                    startActivity(intent);
+                    view.reload();
+                    return true;
+
+                }else if(url.split(":")[0].equals("sms")){
+                    Intent intent = new Intent(Intent.ACTION_VIEW);
+                    intent.setData(Uri.parse(url));
+                    startActivity(intent);
+                    view.reload();
+                    return true;
+
+                }else if(url.split(":")[0].equals("mailto")){
+                    Intent intent = new Intent(Intent.ACTION_SEND);
+                    intent.setType("text/plain");
+                    intent.putExtra(Intent.EXTRA_EMAIL, new String[]{url.split(":")[1]});
+                    intent.putExtra(Intent.EXTRA_SUBJECT, "Sistema IMVE");
+                    intent.putExtra(Intent.EXTRA_TEXT, "");
+                    startActivity(Intent.createChooser(intent, "Envío de correo..."));
+                    view.reload();
+                    return true;
+                }
+
                 view.loadUrl(url);
                 return true;
             }
