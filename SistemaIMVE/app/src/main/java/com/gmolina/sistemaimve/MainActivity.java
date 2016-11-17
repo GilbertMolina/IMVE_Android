@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
                     Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse(url));
                     startActivity(intent);
                     view.reload();
+
                     return true;
 
                 }else if(url.split(":")[0].equals("sms")){
@@ -54,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
                     intent.setData(Uri.parse(url));
                     startActivity(intent);
                     view.reload();
+
                     return true;
 
                 }else if(url.split(":")[0].equals("mailto")){
@@ -64,7 +66,9 @@ public class MainActivity extends AppCompatActivity {
                     intent.putExtra(Intent.EXTRA_TEXT, "");
                     startActivity(Intent.createChooser(intent, "Envío de correo..."));
                     view.reload();
+
                     return true;
+
                 }else if(url.contains("Datos/Reportes/")){
                     Intent intent = new Intent(Intent.ACTION_VIEW);
                     intent.setData(Uri.parse(url));
@@ -95,6 +99,7 @@ public class MainActivity extends AppCompatActivity {
 
         if(isOnline()) {
             webView.loadUrl(url);
+
         } else {
             setContentView(R.layout.activity_sin_conexion);
             toast("No hay conexión a internet");
@@ -108,6 +113,7 @@ public class MainActivity extends AppCompatActivity {
     private boolean isOnline() {
         ConnectivityManager cm = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo netInfo = cm.getActiveNetworkInfo();
+
         return (netInfo != null && netInfo.isConnected());
     }
 
@@ -120,12 +126,15 @@ public class MainActivity extends AppCompatActivity {
                 case KeyEvent.KEYCODE_BACK:
                     if (mWebView.canGoBack()) {
                         mWebView.goBack();
+
                     } else {
                         finish();
                     }
+                    
                     return true;
             }
         }
+
         return super.onKeyDown(keyCode, event);
     }
 
